@@ -1,0 +1,117 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(../images/scott-graham-OQMZwNd3ThU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    border: solid red;
+    color: bwhite;
+    background: red;
+    text-align: center;
+    margin-top: 40px;
+}
+
+p{
+    color: black;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.avatar{
+    max-height: 13%;
+    width: auto;
+    margin:0;
+    border: 0;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: white;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    
+
+}
+
+.loginbox input{
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    padding: none;
+    border:  1px solid black;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.loginbox input[type="password"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    
+    
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: white;
+
+}
+
+
+
+form{
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    
+}
+.text{
+    position: relative;
+    top: 680px;
+    
+}

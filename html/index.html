@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Home</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/homestyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- NavBar -->
+            <div class='nav-wrapper'>
+                <div class="left-side">
+                    <div class='logo'>
+                        <a href="index.html"><b>HomeStars</b></a>
+                    </div>
+                </div>    
+                <div class="right-side">
+                    <div class="nav-link-wrapper">
+                        <a href='jhome.html'>Join HomeStar</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href='writereview.html'>Write Review</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href='login.html'>Login</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href='signup.html'>Sign Up</a>
+                    </div>
+               </div>     
+            </div>
+            <!-- Body Content -->
+            <div class="content-wrapper">
+                <div class="content-items">
+                    <div class="content-item">
+                        <a href="browse.html">
+                            <div class="content-img" style="background-image: url(../images/jaelynn-castillo-3dGIvxKiQiQ-unsplash.jpg);"></div>
+                            <div class="img-text">
+                            <h1>Browse Categories</h1>
+                            </div>
+                        </a>
+                </div>
+                    <div class="content-item">
+                        <a href="blogs.html">
+                            <div class="content-img" style="background-image: url(../images/jess-bailey-H7LEJZnrhSU-unsplash.jpg);"></div>
+                            <div class="img-text">
+                            <h1>Blogs</h1>
+                            </div>
+                        </a>
+                </div>
+                    <div class="content-item">
+                        <a href="quote.html">
+                            <div class="content-img" style="background-image: url(../images/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);"></div>
+                            <div class="img-text">
+                            <h1>Get Quote</h1>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Bar -->
+            <div class="bottom-bar">
+                <div class="bottom-wrapper">
+                    <div class="bottom-link-wrapper">
+                        <a href="chat.html">Chat Assistant</a>
+                    </div>
+                    <div class="bottom-link-wrapper">
+                        <a href="newsletter.html">News Letter </a>
+                    </div>
+                    <div class="bottom-link-wrapper">
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+    <script>
+        const contentItems = document.querySelectorAll('.content-img')
+        contentItems.forEach(contentItems => {
+            contentItems.addEventListener('mouseover',() => {
+                contentItems.classList.add('img-darken');                
+            })
+            contentItems.addEventListener('mouseout',() => {
+                contentItems.classList.remove('img-darken');                
+            })
+        })
+    </script>
+</html>
